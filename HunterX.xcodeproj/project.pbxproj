@@ -9,25 +9,52 @@
 /* Begin PBXBuildFile section */
 		2B24032A25B21F9A002A4466 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B24032925B21F9A002A4466 /* AppDelegate.swift */; };
 		2B24032C25B21F9A002A4466 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B24032B25B21F9A002A4466 /* SceneDelegate.swift */; };
-		2B24032E25B21F9A002A4466 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B24032D25B21F9A002A4466 /* ViewController.swift */; };
-		2B24033125B21F9A002A4466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B24032F25B21F9A002A4466 /* Main.storyboard */; };
+		2B24032E25B21F9A002A4466 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B24032D25B21F9A002A4466 /* SignInViewController.swift */; };
+		2B24033125B21F9A002A4466 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B24032F25B21F9A002A4466 /* Auth.storyboard */; };
 		2B24033325B21F9B002A4466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B24033225B21F9B002A4466 /* Assets.xcassets */; };
 		2B24033625B21F9B002A4466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B24033425B21F9B002A4466 /* LaunchScreen.storyboard */; };
+		2B4FDFC625D62B200007A79F /* Bahiana-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B4FDFC525D62B200007A79F /* Bahiana-Regular.ttf */; };
+		2B4FDFD525D62EFB0007A79F /* HunterXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4FDFD425D62EFB0007A79F /* HunterXTests.swift */; };
+		2B66580D25B91CF50040B8F8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66580C25B91CF50040B8F8 /* SignUpViewController.swift */; };
+		2BA06D3925B4DE34008F25E8 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA06D3825B4DE34008F25E8 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B4FDFD725D62EFB0007A79F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B24031E25B21F99002A4466 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B24032525B21F9A002A4466;
+			remoteInfo = HunterX;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2B24032625B21F9A002A4466 /* HunterX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HunterX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B24032925B21F9A002A4466 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B24032B25B21F9A002A4466 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2B24032D25B21F9A002A4466 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2B24033025B21F9A002A4466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B24032D25B21F9A002A4466 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		2B24033025B21F9A002A4466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Auth.storyboard; sourceTree = "<group>"; };
 		2B24033225B21F9B002A4466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B24033525B21F9B002A4466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B24033725B21F9B002A4466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4FDFC525D62B200007A79F /* Bahiana-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bahiana-Regular.ttf"; sourceTree = "<group>"; };
+		2B4FDFD225D62EFB0007A79F /* HunterXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HunterXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4FDFD425D62EFB0007A79F /* HunterXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunterXTests.swift; sourceTree = "<group>"; };
+		2B4FDFD625D62EFB0007A79F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B66580C25B91CF50040B8F8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		2BA06D3825B4DE34008F25E8 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2B24032325B21F9A002A4466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4FDFCF25D62EFB0007A79F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				2B24032825B21F9A002A4466 /* HunterX */,
+				2B4FDFD325D62EFB0007A79F /* HunterXTests */,
 				2B24032725B21F9A002A4466 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				2B24032625B21F9A002A4466 /* HunterX.app */,
+				2B4FDFD225D62EFB0007A79F /* HunterXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +85,91 @@
 		2B24032825B21F9A002A4466 /* HunterX */ = {
 			isa = PBXGroup;
 			children = (
-				2B24032925B21F9A002A4466 /* AppDelegate.swift */,
-				2B24032B25B21F9A002A4466 /* SceneDelegate.swift */,
-				2B24032D25B21F9A002A4466 /* ViewController.swift */,
-				2B24032F25B21F9A002A4466 /* Main.storyboard */,
-				2B24033225B21F9B002A4466 /* Assets.xcassets */,
-				2B24033425B21F9B002A4466 /* LaunchScreen.storyboard */,
-				2B24033725B21F9B002A4466 /* Info.plist */,
+				2B4FDFC125D629E70007A79F /* App */,
+				2B4FDFC025D629E00007A79F /* Assets */,
+				2B4FDFBF25D628CA0007A79F /* Data */,
+				2BA06D3525B4D7B3008F25E8 /* Core */,
+				2BA06D3425B4D7AE008F25E8 /* UI */,
+				2BA06D3725B4DE1B008F25E8 /* Misc */,
 			);
 			path = HunterX;
+			sourceTree = "<group>";
+		};
+		2B4FDFBF25D628CA0007A79F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2B4FDFC025D629E00007A79F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2B4FDFC525D62B200007A79F /* Bahiana-Regular.ttf */,
+				2B24033225B21F9B002A4466 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2B4FDFC125D629E70007A79F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2B24033725B21F9B002A4466 /* Info.plist */,
+				2B24032925B21F9A002A4466 /* AppDelegate.swift */,
+				2B24032B25B21F9A002A4466 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2B4FDFC425D62A310007A79F /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				2B66580C25B91CF50040B8F8 /* SignUpViewController.swift */,
+				2B24032D25B21F9A002A4466 /* SignInViewController.swift */,
+				2B24032F25B21F9A002A4466 /* Auth.storyboard */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		2B4FDFC825D62B540007A79F /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2B24033425B21F9B002A4466 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		2B4FDFD325D62EFB0007A79F /* HunterXTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B4FDFD425D62EFB0007A79F /* HunterXTests.swift */,
+				2B4FDFD625D62EFB0007A79F /* Info.plist */,
+			);
+			path = HunterXTests;
+			sourceTree = "<group>";
+		};
+		2BA06D3425B4D7AE008F25E8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2B4FDFC825D62B540007A79F /* LaunchScreen */,
+				2B4FDFC425D62A310007A79F /* Auth */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2BA06D3525B4D7B3008F25E8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2BA06D3725B4DE1B008F25E8 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				2BA06D3825B4DE34008F25E8 /* CustomTextField.swift */,
+			);
+			path = Misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,17 +192,39 @@
 			productReference = 2B24032625B21F9A002A4466 /* HunterX.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2B4FDFD125D62EFB0007A79F /* HunterXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4FDFD925D62EFB0007A79F /* Build configuration list for PBXNativeTarget "HunterXTests" */;
+			buildPhases = (
+				2B4FDFCE25D62EFB0007A79F /* Sources */,
+				2B4FDFCF25D62EFB0007A79F /* Frameworks */,
+				2B4FDFD025D62EFB0007A79F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B4FDFD825D62EFB0007A79F /* PBXTargetDependency */,
+			);
+			name = HunterXTests;
+			productName = HunterXTests;
+			productReference = 2B4FDFD225D62EFB0007A79F /* HunterXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		2B24031E25B21F99002A4466 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					2B24032525B21F9A002A4466 = {
 						CreatedOnToolsVersion = 12.2;
+					};
+					2B4FDFD125D62EFB0007A79F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2B24032525B21F9A002A4466;
 					};
 				};
 			};
@@ -115,6 +242,7 @@
 			projectRoot = "";
 			targets = (
 				2B24032525B21F9A002A4466 /* HunterX */,
+				2B4FDFD125D62EFB0007A79F /* HunterXTests */,
 			);
 		};
 /* End PBXProject section */
@@ -126,7 +254,15 @@
 			files = (
 				2B24033625B21F9B002A4466 /* LaunchScreen.storyboard in Resources */,
 				2B24033325B21F9B002A4466 /* Assets.xcassets in Resources */,
-				2B24033125B21F9A002A4466 /* Main.storyboard in Resources */,
+				2B4FDFC625D62B200007A79F /* Bahiana-Regular.ttf in Resources */,
+				2B24033125B21F9A002A4466 /* Auth.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4FDFD025D62EFB0007A79F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,21 +273,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B24032E25B21F9A002A4466 /* ViewController.swift in Sources */,
+				2BA06D3925B4DE34008F25E8 /* CustomTextField.swift in Sources */,
+				2B24032E25B21F9A002A4466 /* SignInViewController.swift in Sources */,
 				2B24032A25B21F9A002A4466 /* AppDelegate.swift in Sources */,
 				2B24032C25B21F9A002A4466 /* SceneDelegate.swift in Sources */,
+				2B66580D25B91CF50040B8F8 /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4FDFCE25D62EFB0007A79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4FDFD525D62EFB0007A79F /* HunterXTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2B4FDFD825D62EFB0007A79F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B24032525B21F9A002A4466 /* HunterX */;
+			targetProxy = 2B4FDFD725D62EFB0007A79F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		2B24032F25B21F9A002A4466 /* Main.storyboard */ = {
+		2B24032F25B21F9A002A4466 /* Auth.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2B24033025B21F9A002A4466 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Auth.storyboard;
 			sourceTree = "<group>";
 		};
 		2B24033425B21F9B002A4466 /* LaunchScreen.storyboard */ = {
@@ -288,7 +442,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AQUE4FE98B;
-				INFOPLIST_FILE = HunterX/Info.plist;
+				INFOPLIST_FILE = HunterX/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +461,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AQUE4FE98B;
-				INFOPLIST_FILE = HunterX/Info.plist;
+				INFOPLIST_FILE = HunterX/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +470,48 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B4FDFDA25D62EFB0007A79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQUE4FE98B;
+				INFOPLIST_FILE = HunterXTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.zheref.uikit.HunterXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HunterX.app/HunterX";
+			};
+			name = Debug;
+		};
+		2B4FDFDB25D62EFB0007A79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQUE4FE98B;
+				INFOPLIST_FILE = HunterXTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.zheref.uikit.HunterXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HunterX.app/HunterX";
 			};
 			name = Release;
 		};
@@ -336,6 +532,15 @@
 			buildConfigurations = (
 				2B24033B25B21F9B002A4466 /* Debug */,
 				2B24033C25B21F9B002A4466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4FDFD925D62EFB0007A79F /* Build configuration list for PBXNativeTarget "HunterXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4FDFDA25D62EFB0007A79F /* Debug */,
+				2B4FDFDB25D62EFB0007A79F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
