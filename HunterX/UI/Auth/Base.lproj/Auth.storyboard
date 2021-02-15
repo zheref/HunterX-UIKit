@@ -38,15 +38,15 @@
                         <sections>
                             <tableViewSection id="SX6-KO-ubB">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="355" id="nvD-19-ayq">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="355"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="128" id="nvD-19-ayq">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="128"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nvD-19-ayq" id="DtT-kI-jB1">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="355"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HunterX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s1Z-9B-qZf">
-                                                    <rect key="frame" x="110" y="156.5" width="194" height="102.5"/>
+                                                    <rect key="frame" x="110" y="3.5" width="194" height="102.5"/>
                                                     <fontDescription key="fontDescription" name="Bahiana-Regular" family="Bahiana" pointSize="89"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -54,31 +54,31 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="s1Z-9B-qZf" firstAttribute="centerX" secondItem="DtT-kI-jB1" secondAttribute="centerX" id="5Ue-C5-04F"/>
-                                                <constraint firstItem="s1Z-9B-qZf" firstAttribute="centerY" secondItem="DtT-kI-jB1" secondAttribute="centerY" constant="30" id="TXC-0J-L2X"/>
+                                                <constraint firstAttribute="bottom" secondItem="s1Z-9B-qZf" secondAttribute="bottom" constant="22" id="jMh-zo-XsN"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="57" id="TMw-Lv-dmG">
-                                        <rect key="frame" x="0.0" y="383" width="414" height="57"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="63" id="TMw-Lv-dmG">
+                                        <rect key="frame" x="0.0" y="156" width="414" height="63"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TMw-Lv-dmG" id="eWb-tU-65F">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="57"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="63"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="nvr-5y-QmC" customClass="CustomTextField" customModule="HunterX" customModuleProvider="target">
-                                                    <rect key="frame" x="30" y="8.5" width="354" height="40"/>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your email..." textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="nvr-5y-QmC" customClass="CustomTextField" customModule="HunterX" customModuleProvider="target">
+                                                    <rect key="frame" x="30" y="7" width="354" height="49"/>
                                                     <color key="backgroundColor" red="0.95294266940000005" green="0.94901019330000003" blue="0.94901198149999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="40" id="qTA-4K-s5T"/>
+                                                        <constraint firstAttribute="height" constant="49" id="qTA-4K-s5T"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
-                                                    <textInputTraits key="textInputTraits" textContentType="username"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" textContentType="email"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                                             <real key="value" value="0.0"/>
                                                         </userDefinedRuntimeAttribute>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                            <real key="value" value="18"/>
+                                                            <real key="value" value="24"/>
                                                         </userDefinedRuntimeAttribute>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="paddingValue">
                                                             <real key="value" value="16"/>
@@ -93,27 +93,27 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="57" id="mt4-p8-pIQ">
-                                        <rect key="frame" x="0.0" y="440" width="414" height="57"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="63" id="mt4-p8-pIQ">
+                                        <rect key="frame" x="0.0" y="219" width="414" height="63"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mt4-p8-pIQ" id="qUF-LK-QjM">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="57"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="63"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="1za-2C-WxO" customClass="CustomTextField" customModule="HunterX" customModuleProvider="target">
-                                                    <rect key="frame" x="30" y="8.5" width="354" height="40"/>
+                                                    <rect key="frame" x="30" y="7" width="354" height="49"/>
                                                     <color key="backgroundColor" red="0.95294266940000005" green="0.94901019330000003" blue="0.94901198149999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="40" id="ViH-UK-74W"/>
+                                                        <constraint firstAttribute="height" constant="49" id="ViH-UK-74W"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="11"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" textContentType="username"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                                             <real key="value" value="0.0"/>
                                                         </userDefinedRuntimeAttribute>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                            <real key="value" value="18"/>
+                                                            <real key="value" value="24"/>
                                                         </userDefinedRuntimeAttribute>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="paddingValue">
                                                             <real key="value" value="16"/>
@@ -128,58 +128,59 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="57" id="n8y-Vf-gkD">
-                                        <rect key="frame" x="0.0" y="497" width="414" height="57"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="80" id="n8y-Vf-gkD">
+                                        <rect key="frame" x="0.0" y="282" width="414" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="n8y-Vf-gkD" id="LMC-Qq-UtU">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="57"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcZ-4B-Xy3">
-                                                    <rect key="frame" x="30" y="8.5" width="354" height="40"/>
-                                                    <color key="backgroundColor" red="0.86604076620000003" green="0.45930594209999998" blue="0.34504479170000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="30" y="18" width="354" height="50"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="40" id="0Cc-v2-e7C"/>
+                                                        <constraint firstAttribute="height" constant="50" id="0Cc-v2-e7C"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                                                    <fontDescription key="fontDescription" name="Bahiana-Regular" family="Bahiana" pointSize="24"/>
                                                     <state key="normal" title="Sign In">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                            <integer key="value" value="18"/>
+                                                            <integer key="value" value="24"/>
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="mcZ-4B-Xy3" firstAttribute="centerY" secondItem="LMC-Qq-UtU" secondAttribute="centerY" id="4Od-vy-y2o"/>
                                                 <constraint firstItem="mcZ-4B-Xy3" firstAttribute="leading" secondItem="LMC-Qq-UtU" secondAttribute="leading" constant="30" id="Wgb-JI-4rQ"/>
                                                 <constraint firstAttribute="trailing" secondItem="mcZ-4B-Xy3" secondAttribute="trailing" constant="30" id="iKJ-SN-Y4P"/>
+                                                <constraint firstAttribute="bottom" secondItem="mcZ-4B-Xy3" secondAttribute="bottom" constant="12" id="q1Q-Go-gE6"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="40" id="Jdf-Fs-euI">
-                                        <rect key="frame" x="0.0" y="554" width="414" height="40"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="52" id="Jdf-Fs-euI">
+                                        <rect key="frame" x="0.0" y="362" width="414" height="52"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Jdf-Fs-euI" id="iUw-DU-mU8">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="52"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vbn-e1-b79">
-                                                    <rect key="frame" x="30" y="0.0" width="354" height="40"/>
+                                                    <rect key="frame" x="30" y="1" width="354" height="50"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="40" id="the-1b-0KI"/>
+                                                        <constraint firstAttribute="height" constant="50" id="the-1b-0KI"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                                                    <fontDescription key="fontDescription" name="Bahiana-Regular" family="Bahiana" pointSize="24"/>
                                                     <state key="normal" title="Sign Up">
-                                                        <color key="titleColor" red="0.74453014139999996" green="0.34559002519999998" blue="0.247004956" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="semibold"/>
                                                     </state>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                            <integer key="value" value="18"/>
+                                                            <integer key="value" value="24"/>
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                     <connections>
@@ -203,10 +204,15 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="mgx-xr-gxj"/>
+                    <connections>
+                        <outlet property="passwordTextField" destination="1za-2C-WxO" id="oa5-F1-Run"/>
+                        <outlet property="signUpButton" destination="Vbn-e1-b79" id="GCi-CB-dKu"/>
+                        <outlet property="usernameTextField" destination="nvr-5y-QmC" id="Cml-8C-py4"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYl-S8-3X2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-622" y="62"/>
+            <point key="canvasLocation" x="-623.1884057971015" y="61.607142857142854"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="0Yn-Ms-aWW">
@@ -434,7 +440,7 @@
             <size key="intrinsicContentSize" width="86.5" height="18"/>
         </designable>
         <designable name="1za-2C-WxO">
-            <size key="intrinsicContentSize" width="78.5" height="17"/>
+            <size key="intrinsicContentSize" width="91" height="21"/>
         </designable>
         <designable name="iLq-Hx-4D9">
             <size key="intrinsicContentSize" width="78.5" height="17"/>
@@ -443,7 +449,7 @@
             <size key="intrinsicContentSize" width="89" height="18"/>
         </designable>
         <designable name="nvr-5y-QmC">
-            <size key="intrinsicContentSize" width="86.5" height="18"/>
+            <size key="intrinsicContentSize" width="109" height="21"/>
         </designable>
     </designables>
     <resources>
