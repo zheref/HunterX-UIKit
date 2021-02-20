@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Bahiana-Regular.ttf">
+            <string>Bahiana-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XNavigationBar" customModule="HunterX" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="Dig-CG-XTl"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="382" height="69"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hunter Xplore" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2V-vf-ubE">
+                    <rect key="frame" x="30" y="19" width="139" height="41.5"/>
+                    <fontDescription key="fontDescription" name="Bahiana-Regular" family="Bahiana" pointSize="36"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EwW-dX-NLE">
+                    <rect key="frame" x="324" y="24" width="32" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="WvV-lG-BdP"/>
+                        <constraint firstAttribute="width" constant="32" id="rif-7p-fP9"/>
+                    </constraints>
+                    <state key="normal" image="add-material-round"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="XYq-SD-6tq"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="EwW-dX-NLE" firstAttribute="centerY" secondItem="G2V-vf-ubE" secondAttribute="centerY" id="0aH-zM-T9s"/>
+                <constraint firstItem="G2V-vf-ubE" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="5.25" id="OCd-qW-727"/>
+                <constraint firstItem="G2V-vf-ubE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="WcG-Sj-sWa"/>
+                <constraint firstItem="XYq-SD-6tq" firstAttribute="trailing" secondItem="EwW-dX-NLE" secondAttribute="trailing" constant="26" id="XXk-Dx-AG2"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="114.49275362318842" y="-124.21875"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="add-material-round" width="30" height="30"/>
+    </resources>
+</document>

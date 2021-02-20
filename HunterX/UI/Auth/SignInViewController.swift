@@ -28,14 +28,14 @@ class SignInViewController: UITableViewController {
     }
     
     @objc func adjustForKeyboard(notification: Notification) {
-        guard let keyboardVal = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue else {
-            return
-        }
+//        guard let keyboardVal = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue else {
+//            return
+//        }
 
         if notification.name == UIResponder.keyboardWillHideNotification {
             tableView.contentInset = SignInViewController.defaultScrollViewInsets
         } else {
-            let kbViewEndFrame = view.convert(keyboardVal.cgRectValue, from: view.window)
+            // let kbViewEndFrame = view.convert(keyboardVal.cgRectValue, from: view.window)
             tableView.contentInset = UIEdgeInsets(top: 50,
                                                   left: 0,
                                                   bottom: 0,
