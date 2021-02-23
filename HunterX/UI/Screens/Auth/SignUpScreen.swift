@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SignUpViewController : UITableViewController {
+class SignUpScreen : UITableViewController {
     
     @IBOutlet var nameTextField: CustomTextField!
     @IBOutlet var usernameTextField: CustomTextField!

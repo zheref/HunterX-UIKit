@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SignInViewController: UITableViewController {
+class SignInScreen: UITableViewController {
     
     static let defaultScrollViewInsets = UIEdgeInsets(top: 180, left: 0, bottom: 0, right: 0)
     
@@ -18,7 +18,7 @@ class SignInViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.contentInset = SignInViewController.defaultScrollViewInsets
+        tableView.contentInset = SignInScreen.defaultScrollViewInsets
         
         signUpButton.layer.borderWidth = 1
         signUpButton.layer.borderColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
@@ -33,7 +33,7 @@ class SignInViewController: UITableViewController {
 //        }
 
         if notification.name == UIResponder.keyboardWillHideNotification {
-            tableView.contentInset = SignInViewController.defaultScrollViewInsets
+            tableView.contentInset = SignInScreen.defaultScrollViewInsets
         } else {
             // let kbViewEndFrame = view.convert(keyboardVal.cgRectValue, from: view.window)
             tableView.contentInset = UIEdgeInsets(top: 50,
