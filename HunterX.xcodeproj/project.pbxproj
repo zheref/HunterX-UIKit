@@ -154,13 +154,12 @@
 			path = HunterXTests;
 			sourceTree = "<group>";
 		};
-		2B88D18125E1641F0018C2B7 /* Components */ = {
+		2B88D18125E1641F0018C2B7 /* Widgets */ = {
 			isa = PBXGroup;
 			children = (
-				2B88D18225E164FF0018C2B7 /* XNavigationBar.xib */,
-				2B88D18625E168EC0018C2B7 /* XNavigationBar.swift */,
+				2B9BE70325E55CCE004BC7DE /* XNavigationBar */,
 			);
-			path = Components;
+			path = Widgets;
 			sourceTree = "<group>";
 		};
 		2B88D18A25E1BAE30018C2B7 /* Main */ = {
@@ -171,13 +170,30 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		2B9BE70225E55CC3004BC7DE /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				2B4FDFC825D62B540007A79F /* LaunchScreen */,
+				2B4FDFC425D62A310007A79F /* Auth */,
+				2B88D18A25E1BAE30018C2B7 /* Main */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		2B9BE70325E55CCE004BC7DE /* XNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				2B88D18225E164FF0018C2B7 /* XNavigationBar.xib */,
+				2B88D18625E168EC0018C2B7 /* XNavigationBar.swift */,
+			);
+			path = XNavigationBar;
+			sourceTree = "<group>";
+		};
 		2BA06D3425B4D7AE008F25E8 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				2B88D18A25E1BAE30018C2B7 /* Main */,
-				2B88D18125E1641F0018C2B7 /* Components */,
-				2B4FDFC825D62B540007A79F /* LaunchScreen */,
-				2B4FDFC425D62A310007A79F /* Auth */,
+				2B9BE70225E55CC3004BC7DE /* Activities */,
+				2B88D18125E1641F0018C2B7 /* Widgets */,
 			);
 			path = UI;
 			sourceTree = "<group>";
