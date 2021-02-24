@@ -19,6 +19,14 @@
 		2B88D18325E164FF0018C2B7 /* XNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B88D18225E164FF0018C2B7 /* XNavigationBar.xib */; };
 		2B88D18725E168EC0018C2B7 /* XNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B88D18625E168EC0018C2B7 /* XNavigationBar.swift */; };
 		2B88D18E25E1BB0B0018C2B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B88D18D25E1BB0B0018C2B7 /* Main.storyboard */; };
+		2B9BE71125E5682F004BC7DE /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9BE71025E5682F004BC7DE /* Aliases.swift */; };
+		2B9BE72025E56B16004BC7DE /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9BE71F25E56B16004BC7DE /* HomeScreen.swift */; };
+		2B9BE72425E56B22004BC7DE /* HomeAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9BE72325E56B22004BC7DE /* HomeAdapter.swift */; };
+		2B9BE72825E56B34004BC7DE /* HomeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9BE72725E56B34004BC7DE /* HomeHandler.swift */; };
+		2B9BE72C25E56D28004BC7DE /* MainIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9BE72B25E56D28004BC7DE /* MainIntent.swift */; };
+		2B9BE73225E56EFA004BC7DE /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9BE73125E56EFA004BC7DE /* Framework.swift */; };
+		2B9BE73625E5707D004BC7DE /* MainValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9BE73525E5707D004BC7DE /* MainValues.swift */; };
+		2B9BE73B25E57381004BC7DE /* AddCharacterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9BE73A25E57381004BC7DE /* AddCharacterScreen.swift */; };
 		2BA06D3925B4DE34008F25E8 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA06D3825B4DE34008F25E8 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +57,14 @@
 		2B88D18225E164FF0018C2B7 /* XNavigationBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XNavigationBar.xib; sourceTree = "<group>"; };
 		2B88D18625E168EC0018C2B7 /* XNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XNavigationBar.swift; sourceTree = "<group>"; };
 		2B88D18D25E1BB0B0018C2B7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2B9BE71025E5682F004BC7DE /* Aliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aliases.swift; sourceTree = "<group>"; };
+		2B9BE71F25E56B16004BC7DE /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		2B9BE72325E56B22004BC7DE /* HomeAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAdapter.swift; sourceTree = "<group>"; };
+		2B9BE72725E56B34004BC7DE /* HomeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHandler.swift; sourceTree = "<group>"; };
+		2B9BE72B25E56D28004BC7DE /* MainIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainIntent.swift; sourceTree = "<group>"; };
+		2B9BE73125E56EFA004BC7DE /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		2B9BE73525E5707D004BC7DE /* MainValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainValues.swift; sourceTree = "<group>"; };
+		2B9BE73A25E57381004BC7DE /* AddCharacterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCharacterScreen.swift; sourceTree = "<group>"; };
 		2BA06D3825B4DE34008F25E8 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -166,6 +182,10 @@
 			isa = PBXGroup;
 			children = (
 				2B88D18D25E1BB0B0018C2B7 /* Main.storyboard */,
+				2B9BE71625E56A91004BC7DE /* Home */,
+				2B9BE73925E57360004BC7DE /* AddCharacter */,
+				2B9BE72B25E56D28004BC7DE /* MainIntent.swift */,
+				2B9BE73525E5707D004BC7DE /* MainValues.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -189,6 +209,24 @@
 			path = XNavigationBar;
 			sourceTree = "<group>";
 		};
+		2B9BE71625E56A91004BC7DE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2B9BE71F25E56B16004BC7DE /* HomeScreen.swift */,
+				2B9BE72325E56B22004BC7DE /* HomeAdapter.swift */,
+				2B9BE72725E56B34004BC7DE /* HomeHandler.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2B9BE73925E57360004BC7DE /* AddCharacter */ = {
+			isa = PBXGroup;
+			children = (
+				2B9BE73A25E57381004BC7DE /* AddCharacterScreen.swift */,
+			);
+			path = AddCharacter;
+			sourceTree = "<group>";
+		};
 		2BA06D3425B4D7AE008F25E8 /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,7 +246,9 @@
 		2BA06D3725B4DE1B008F25E8 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
+				2B9BE71025E5682F004BC7DE /* Aliases.swift */,
 				2BA06D3825B4DE34008F25E8 /* CustomTextField.swift */,
+				2B9BE73125E56EFA004BC7DE /* Framework.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -317,8 +357,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BA06D3925B4DE34008F25E8 /* CustomTextField.swift in Sources */,
+				2B9BE73B25E57381004BC7DE /* AddCharacterScreen.swift in Sources */,
+				2B9BE72C25E56D28004BC7DE /* MainIntent.swift in Sources */,
 				2B24032E25B21F9A002A4466 /* SignInScreen.swift in Sources */,
 				2B88D18725E168EC0018C2B7 /* XNavigationBar.swift in Sources */,
+				2B9BE73225E56EFA004BC7DE /* Framework.swift in Sources */,
+				2B9BE73625E5707D004BC7DE /* MainValues.swift in Sources */,
+				2B9BE71125E5682F004BC7DE /* Aliases.swift in Sources */,
+				2B9BE72025E56B16004BC7DE /* HomeScreen.swift in Sources */,
+				2B9BE72825E56B34004BC7DE /* HomeHandler.swift in Sources */,
+				2B9BE72425E56B22004BC7DE /* HomeAdapter.swift in Sources */,
 				2B24032A25B21F9A002A4466 /* AppDelegate.swift in Sources */,
 				2B24032C25B21F9A002A4466 /* SceneDelegate.swift in Sources */,
 				2B66580D25B91CF50040B8F8 /* SignUpScreen.swift in Sources */,

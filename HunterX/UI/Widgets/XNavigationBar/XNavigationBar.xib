@@ -14,6 +14,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XNavigationBar" customModule="HunterX" customModuleProvider="target">
             <connections>
+                <outlet property="rightActionButton" destination="EwW-dX-NLE" id="80U-Pa-Vh4"/>
+                <outlet property="titleLabel" destination="G2V-vf-ubE" id="wM9-vq-n9u"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Dig-CG-XTl"/>
             </connections>
         </placeholder>
@@ -22,8 +24,8 @@
             <rect key="frame" x="0.0" y="0.0" width="382" height="69"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hunter Xplore" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2V-vf-ubE">
-                    <rect key="frame" x="30" y="19" width="139" height="41.5"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2V-vf-ubE">
+                    <rect key="frame" x="30" y="19" width="88" height="41.5"/>
                     <fontDescription key="fontDescription" name="Bahiana-Regular" family="Bahiana" pointSize="36"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -35,6 +37,9 @@
                         <constraint firstAttribute="width" constant="32" id="rif-7p-fP9"/>
                     </constraints>
                     <state key="normal" image="add-material-round"/>
+                    <connections>
+                        <action selector="userDidTapRightActionButton" destination="-1" eventType="touchUpInside" id="4jg-NU-HKq"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="XYq-SD-6tq"/>

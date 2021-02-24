@@ -11,11 +11,28 @@ final class XNavigationBar : UIView {
     
     private static let NIB_NAME = "XNavigationBar"
     
+    var userDidTapRightActionButtonHandler: Closure?
+    var title: String? {
+        didSet {
+            guard let title = self.title else {
+                return
+            }
+            
+            titleLabel.text = title
+        }
+    }
+    var rightActionIcon: UIImage? {
+        get { return rightActionButton.image(for: .normal) }
+        set { rightActionButton.setImage(newValue, for: .normal) }
+    }
+    
     @IBOutlet private var view: UIView!
+    @IBOutlet private var titleLabel: UILabel!
+    @IBOutlet private var rightActionButton: UIButton!
     
     override func awakeFromNib() {
-            initWithNib()
-        }
+        initWithNib()
+    }
         
     private func initWithNib() {
         Bundle.main.loadNibNamed(XNavigationBar.NIB_NAME, owner: self, options: nil)
@@ -34,6 +51,10 @@ final class XNavigationBar : UIView {
             ]
         )
     }
-
+    
+    @IBAction private func userDidTapRightActionButton() {
+        print("Reached")
+        userDidTapRightActionButtonHandler?()
+    }
     
 }
